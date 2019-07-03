@@ -8,3 +8,5 @@ pkg/
 .DS_Store
 *.lock
 .gem
+.idea
+.ruby-version

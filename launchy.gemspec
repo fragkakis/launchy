@@ -28,20 +28,20 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<addressable>, ["~> 2.3"])
+      s.add_runtime_dependency(%q<addressable>, ["~> 2.6"])
       s.add_development_dependency(%q<rake>, ["~> 10.1"])
       s.add_development_dependency(%q<minitest>, ["~> 5.0"])
       s.add_development_dependency(%q<rdoc>, ["~> 4.1"])
       s.add_development_dependency(%q<simplecov>, ["~> 0.9"])
     else
-      s.add_dependency(%q<addressable>, ["~> 2.3"])
+      s.add_dependency(%q<addressable>, ["~> 2.6"])
       s.add_dependency(%q<rake>, ["~> 10.1"])
       s.add_dependency(%q<minitest>, ["~> 5.0"])
       s.add_dependency(%q<rdoc>, ["~> 4.1"])
       s.add_dependency(%q<simplecov>, ["~> 0.9"])
     end
   else
-    s.add_dependency(%q<addressable>, ["~> 2.3"])
+    s.add_dependency(%q<addressable>, ["~> 2.6"])
     s.add_dependency(%q<rake>, ["~> 10.1"])
     s.add_dependency(%q<minitest>, ["~> 5.0"])
     s.add_dependency(%q<rdoc>, ["~> 4.1"])
